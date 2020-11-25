@@ -78,8 +78,9 @@ class Welcome extends Component {
 
           <div className="welcome__intro">
             <div className="intro__inner formatted-text">
-              <h1>Amazon IVS with ChimeSDK</h1>
-              <h3>Create or join rooms, and watch Amazon IVS streams with anyone.</h3>
+              <h1>FAYR TV</h1>
+              {/* <h3>Create or join rooms, and watch Amazon IVS streams with anyone.</h3> */}
+              <h3>Erstelle eine FAYR WatchParty</h3>
             </div>
           </div>
 
