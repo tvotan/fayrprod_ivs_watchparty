@@ -6,7 +6,8 @@
   --chat-line-padding: 0.5rem 1rem;
 }
 
-@media (max-width: 960px) { /* Large Screens and below */
+@media (max-width: 960px) {
+  /* Large Screens and below */
   :root {
     --chat-row-template: 5.5rem 1fr 7.5rem;
     --room-link-label-font-size: 1.4rem;
@@ -59,7 +60,8 @@
 
 /* Chat */
 .chat {
-  background: var(--color--tertiary);
+  background: transparent;
+  /* background: var(--color--tertiary); */
   display: grid;
   grid-template-rows: var(--chat-row-template);
 }
