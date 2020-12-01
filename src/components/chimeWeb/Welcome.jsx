@@ -90,8 +90,8 @@ class Welcome extends Component {
               <h3>Fiebere zusammen mit deinen Freunden mit und schaue dir das Spiel an!</h3>
               <form action="">
                 <fieldset className="mg-b-2">
-                  <input className="mg-b-2" type="text" placeholder="Your name" value={username} ref={this.inputRef} onChange={this.handleNameChange} />
-                  <input type="text" placeholder="Room name" value={title} onChange={this.handleRoomChange} />
+                  <input className="mg-b-2" type="text" placeholder="Dein Name" value={username} ref={this.inputRef} onChange={this.handleNameChange} />
+                  <input type="text" placeholder="Code" value={title} onChange={this.handleRoomChange} />
                   {/* <input type="text" placeholder="Playback URL" value={playbackURL} onChange={this.handlePlaybackURLChange} /> */}
                   <button className="mg-t-2 btn btn--primary" disabled={createRoomDisabled} onClick={this.handleCreateRoom} >Watch Party</button>
                 </fieldset>
