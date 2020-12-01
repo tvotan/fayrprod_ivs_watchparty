@@ -115,7 +115,7 @@ class VideoPlayer extends Component {
         if (btnMute.classList.contains("player-btn--mute")) {
           btnMute.classList.remove("player-btn--mute");
           btnMute.classList.add("player-btn--unmute");
-          player.setMuted(1);
+          player.setMuted(0);
         } else {
           btnMute.classList.remove("player-btn--unmute");
           btnMute.classList.add("player-btn--mute");
