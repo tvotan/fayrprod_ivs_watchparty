@@ -8,7 +8,7 @@ export const CHIME_ROOM_MAX_ATTENDEE = 16;
 
 // Default video stream to play inside the video player
 // export const DEFAULT_VIDEO_STREAM = "https://1404752763.rsc.cdn77.org/2VhVxDX5Xa_Mr0D11hEceg==,1606844551/ls-45420-1/tracks-v1a1/mono.m3u8";
-export const DEFAULT_VIDEO_STREAM = "000001_Ott_Hls_Ts_Avc_Aac_16x9_1280x720p_30Hz_3500Kbps.m3u8"
+export const DEFAULT_VIDEO_STREAM = "https://testamplifyvode-dev-output-1pqi1hdc.s3-eu-west-1.amazonaws.com/000001/000001_Ott_Hls_Ts_Avc_Aac_16x9_1280x720p_30Hz_3500Kbps.m3u8"
 
 // Default Chat websocket link
 export const CHAT_WEBSOCKET = "wss://nexywm0v59.execute-api.eu-west-1.amazonaws.com/Prod";
