@@ -62,13 +62,13 @@ input:disabled {
 
 /* Intro */
 .welcome__intro {
-  background: url("../../assets/bg.jpg");
+  /* background: url("../../assets/bg.jpg"); */
   background-size: cover;
   text-align: var(--intro-text-align);
 }
 
 .intro__inner {
-  padding: 3rem;
+  padding: 7rem;
 }
 
 .welcome__content {

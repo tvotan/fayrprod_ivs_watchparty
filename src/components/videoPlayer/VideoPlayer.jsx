@@ -36,7 +36,7 @@ class VideoPlayer extends Component {
 
     // First, check if the browser supports the Amazon IVS player.
     if (!MediaPlayerPackage.isPlayerSupported) {
-        console.warn("The current browser does not support the Amazon IVS player.");
+        console.warn("Leider unterstützt dein Browser FAYR TV nicht. Wir empfehlen Google Chrome oder Firefox ;-)");
         return;
     }
 

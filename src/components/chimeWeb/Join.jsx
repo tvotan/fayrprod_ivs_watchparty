@@ -78,18 +78,18 @@ class Join extends Component {
 
         <div className="welcome__intro">
           <div className="intro__inner formatted-text">
-            <h1>Amazon IVS with ChimeSDK</h1>
-            <h3>Create or join rooms, and watch Amazon IVS streams with anyone.</h3>
+            <h1>FAYR TV</h1>
+            <h3>Erstelle eine WatchParty oder trete einer bei und verbringe mit deinen Freunden eine geile Zeit!</h3>
           </div>
         </div>
 
         <div className="welcome__content pd-4">
           <div className="content__inner">
-            <h2 className="mg-b-2">Hey there!</h2>
+            <h2 className="mg-b-2">Sportliche Grüße aus Stuttgart!</h2>
             <form action="">
               <fieldset className="mg-b-2">
                 <input type="text" placeholder="Your name" value={username} ref={this.inputRef} onChange={this.handleNameChange} />
-                <button className="mg-t-1 btn btn--primary" disabled={joinRoomDisabled} onClick={this.handleJoinRoom}>Join room</button>
+                <button className="mg-t-1 btn btn--primary" disabled={joinRoomDisabled} onClick={this.handleJoinRoom}>Beitreten</button>
               </fieldset>
             </form>
           </div>
